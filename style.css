@@ -34,8 +34,9 @@ body{
 nav{
   position: relative;
 
-  font-size: calc(1500vw / 1028);
+  /* font-size: calc(1500vw / 1028); */
   /* font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1920 - 320))); */
+  font-size: 1.125rem;
 
 
   display: flex;
@@ -85,7 +86,7 @@ li:hover svg{
 
 h1{
   text-align: center;
-  font-size: calc(4000vw / 1028);
+  font-size: clamp(calc(4000vw / 1028), 20px, 60px);
   padding: 0.1125em;
   overflow: hidden;
 }
